@@ -10,6 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            GameSorter gameSorter = new GameSorter();
+            gameSorter.PrintNumber();
+            gameSorter.PrintMostGenre();
+            gameSorter.PrintLongestMapName();
+            gameSorter.PrintAllInfo();
+            gameSorter.PrintMapsWithZ();
         }
     }
 }
